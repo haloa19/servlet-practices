@@ -22,7 +22,7 @@ public class GuestBookDaoTest {
 	public static void insertTest() {
 		GuestBookVo vo = new GuestBookVo();
 		vo.setName("둘리");
-		vo.setContents("안녕, 나는 둘리야!!");
+		vo.setContents("안녕, 나는 둘리야12121!!");
 		vo.setPassword("1212");
 		vo.setNgDate(format1.format(date));
 		new GuestBookDao().insert(vo);
