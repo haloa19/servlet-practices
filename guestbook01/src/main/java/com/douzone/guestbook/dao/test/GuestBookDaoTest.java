@@ -12,8 +12,8 @@ public class GuestBookDaoTest {
 	static Date date = new Date();
 
 	public static void main(String[] args) {
-//		insertTest();
-//		selectTest();
+		insertTest();
+		selectTest();
 //		deleteTest();
 //		selectTest();
 
