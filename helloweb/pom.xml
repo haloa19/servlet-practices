@@ -46,6 +46,7 @@
 	
 	
 	<build>
+	<finalName>helloweb</finalName>
 	<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
