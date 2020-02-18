@@ -8,7 +8,7 @@ import com.douzone.emaillist.vo.EmaillistVo;
 public class EmaillistDaoTest {
 
 	public static void main(String[] args) {
-//		insertTest();
+		insertTest();
 		selectTest();
 
 	}
@@ -23,7 +23,7 @@ public class EmaillistDaoTest {
 	public static void insertTest() {
 		EmaillistVo vo = new EmaillistVo();
 		vo.setFirstName("마");
-		vo.setLastName("이콜");
+		vo.setLastName("이콜오올");
 		vo.setEmail("michol@gmail.com");
 		new EmaillistDao().insert(vo);
 	}
