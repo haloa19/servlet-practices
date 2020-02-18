@@ -44,6 +44,7 @@
   </dependencies>
   
   	<build>
+  		<finalName>emaillist01</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
 		<plugin>
