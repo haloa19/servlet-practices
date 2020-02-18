@@ -14,8 +14,8 @@ public class GuestBookDaoTest {
 	public static void main(String[] args) {
 		insertTest();
 		selectTest();
-		deleteTest();
-		selectTest();
+//		deleteTest();
+//		selectTest();
 
 	}
 	
