@@ -25,7 +25,7 @@
 	</table>
 	</form>
 	<%
-		for(int i = list.size(); i > 0; i--) {
+		for(int i = 7; i > 0; i--) {
 			GuestBookVo vo = list.get(i-1);
 	%>
 	<br>
