@@ -33,10 +33,10 @@
 	
 	
   	<modules>
+  	  	<module>emaillist01</module>
   		<module>helloweb</module>
   		<module>guestbook01</module>
   		<module>guestbook02</module>
-  		<module>emaillist01</module>
   		<module>emaillist02</module>
   		<module>jstl</module>
   	</modules>
