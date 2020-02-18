@@ -18,9 +18,9 @@
 	boolean result = new GuestBookDao().delete(vo);
 	
 	if(result) {
-		response.sendRedirect("/guestbook01");
+		response.sendRedirect("/guestbook02");
 	} else {
-		pw.println("<script>alert('비밀번호가 틀렸습니다!!!'); location.href='/guestbook01';</script>");
+		pw.println("<script>alert('비밀번호가 틀렸습니다!!!'); location.href='/guestbook02';</script>");
 		pw.flush();
 	}
 	
